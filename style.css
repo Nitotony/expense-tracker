@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header{
+    background-color: blue;
+}
+.header h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.blank-space{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(98, 166, 230);
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+ 
+}
+th{
+    background-color: blue;
+    color: white;
+    border: 2px solid rgb(98, 166, 230);
+
+}
+
+td{
+    background-color: bisque;
+    text-align: center;
+    border: 2px solid rgb(98, 166, 230);
+}
+
+.delete-btn{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.overall-body{
+    background-color: bisque;
+    width: 800px;
+
+    margin: 200px auto;
+    
+}
+
+
+#button-main{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+   
+    
+}
+
+
+.form-prime{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.right{
+    display:flex;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.alpha{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin: 20px auto;
+
+}
+
+
+.left-2{
+    color:bisque;
+}
